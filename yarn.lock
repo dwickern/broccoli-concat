@@ -617,6 +617,19 @@ fast-ordered-set@^1.0.0, fast-ordered-set@^1.0.2:
   dependencies:
     blank-object "^1.0.1"
 
+fast-sourcemap-concat@dwickern/fast-sourcemap-concat#skip-validation:
+  version "1.2.3"
+  resolved "https://codeload.github.com/dwickern/fast-sourcemap-concat/tar.gz/3acadbab4b910b04f09df1bf0832ac2edd1b34c7"
+  dependencies:
+    chalk "^0.5.1"
+    fs-extra "^0.30.0"
+    heimdalljs-logger "^0.1.7"
+    memory-streams "^0.1.0"
+    mkdirp "^0.5.0"
+    source-map "^0.4.2"
+    source-map-url "^0.3.0"
+    sourcemap-validator "^1.0.5"
+
 fast-sourcemap-concat@~1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/fast-sourcemap-concat/-/fast-sourcemap-concat-1.1.0.tgz#a800767abed5eda02e67238ec063a709be61f9d4"
@@ -1585,6 +1598,15 @@ source-map@~0.5.1:
 sourcemap-validator@^1.0.4:
   version "1.0.4"
   resolved "https://registry.npmjs.org/sourcemap-validator/-/sourcemap-validator-1.0.4.tgz#2dbb3b9ec41936dd140766dd93e2a89e30944d14"
+  dependencies:
+    jsesc "~0.3.x"
+    lodash.foreach "~2.3.x"
+    lodash.template "~2.3.x"
+    source-map "~0.1.x"
+
+sourcemap-validator@^1.0.5:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/sourcemap-validator/-/sourcemap-validator-1.0.6.tgz#abd2f1ecdae6a3c46c2c96c5f256705b2147c9c0"
   dependencies:
     jsesc "~0.3.x"
     lodash.foreach "~2.3.x"
